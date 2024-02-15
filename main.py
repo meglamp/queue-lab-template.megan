@@ -4,11 +4,11 @@ class Queue():
 
     
     def push(self, card):
-        cards.append(card)
+        self.append(card)
 
 
     def pop(self):
-        del cards[0]
+        del self[0]
 
 if __name__ == '__main__':
     
